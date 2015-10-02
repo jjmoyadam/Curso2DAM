@@ -25,7 +25,7 @@ public class NotasDam {
         if(nota<0||nota>10)
             System.out.println("Datos incorrectos");
         else{
-            if(nota<=5)
+            if(nota<=6)
                 System.out.println("Estas suspenso con un "+nota);
             else
                 System.out.println("Estas aprobado con un "+nota);
